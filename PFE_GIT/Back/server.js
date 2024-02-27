@@ -16,7 +16,7 @@ const io = new Server(server, {
 const userRoutes = require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes");
 const imageRoutes = require("./routes/imageRoutes");
-const Story = require("./models/Story");
+
 const User = require("./models/User");
 
 app.use(cors());
